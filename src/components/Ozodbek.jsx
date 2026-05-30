@@ -2,7 +2,10 @@ import React from 'react'
 
 const Ozodbek = () => {
   return (
-    <div>Ozodbek</div>
+    <div>
+      <h1>Ozodbek</h1>
+      <p>Welcome to my component!</p>
+    </div>
   )
 }
 
