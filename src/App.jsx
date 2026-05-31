@@ -1,8 +1,11 @@
 import React from 'react'
+import Axmadxon from './components/Axmadxon'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Axmadxon/>
+    </div>
   )
 }
 
