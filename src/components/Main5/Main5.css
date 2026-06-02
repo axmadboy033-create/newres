@@ -1,0 +1,26 @@
+.site-footer {
+  padding: 28px 0;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-inner .brand {
+  font-weight: 800;
+}
+
+.payments {
+  color: #6b7280;
+}
+
+@media (max-width: 900px) {
+  .footer-inner {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

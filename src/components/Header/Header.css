@@ -1,0 +1,177 @@
+:root {
+  --container: 1200px;
+  --muted: #9ca3af;
+  --black: #111827;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.topbar {
+  background: #000;
+  color: #fff;
+  font-size: 13px;
+}
+
+.topbar .topbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.topbar a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  margin-left: 20px;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.search-and-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.search-wrapper {
+  min-width: 420px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 48px;
+  padding: 8px 14px;
+  background: #fff;
+  border-radius: 9999px;
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.12);
+}
+
+.searchIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  min-width: 36px;
+  height: 36px;
+  background: #f3f4f6;
+  border-radius: 50%;
+}
+
+.searchIcon {
+  width: 18px;
+  height: 18px;
+  fill: var(--muted);
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--black);
+  font-size: 14px;
+}
+
+.searchInput::placeholder {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sameStyle {
+  display: inline-block;
+  padding: 12px 16px;
+  background: linear-gradient(90deg, #4f46e5 0%, #06b6d4 100%);
+  color: #fff;
+  border-radius: 8px;
+  font-family: inherit;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.12);
+}
+
+.sameStyle--full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 18px 16px;
+}
+
+.searchBar {
+  width: min(980px, 92%);
+}
+
+@media (max-width: 900px) {
+  .search-wrapper {
+    min-width: 250px;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-wrapper {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .searchBar {
+    padding: 10px 12px;
+  }
+
+  .searchIcon {
+    width: 18px;
+    height: 18px;
+  }
+}
