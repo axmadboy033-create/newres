@@ -1,10 +1,12 @@
 import React from 'react'
-import Axmadxon from './components/Axmadxon'
+import Product from './components/Product'
+import Detalis from './components/Detalis'
 
 const App = () => {
   return (
     <div>
-      <Axmadxon/>
+        <Product />
+        <Detalis />
     </div>
   )
 }

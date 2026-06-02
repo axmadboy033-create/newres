@@ -1,0 +1,181 @@
+.containeri {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ahref {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.ahref ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.fudbolka {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fudbolka1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fudbolka1 img {
+  width: 152px;
+  height: 167px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fudbolka2 img {
+  width: 480px;
+  height: 530px;
+  border-radius: 20px;
+}
+
+.title {
+  width: 50%;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+}
+
+.ball p {
+  color: gold;
+  font-size: 20px;
+}
+
+.ball mark {
+  background: transparent;
+}
+
+.ball span {
+  color: #00000099;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.price del {
+  color: #00000099;
+}
+
+.price mark {
+  background-color: #ff33331a;
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  border-radius: 20px;
+}
+
+.description {
+  width: 550px;
+  padding: 20px 0;
+  color: #00000099;
+}
+
+hr {
+  width: 600px;
+  margin: 15px 0;
+}
+
+.color,
+.btn {
+  width: 600px;
+}
+
+.color p,
+.btn p {
+  color: #00000099;
+  margin-bottom: 15px;
+}
+
+/* Rang buttonlari */
+
+.color button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+/* Size buttonlari */
+
+.btn button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card {
+  width: 550px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btns {
+  width: 170px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  border-radius: 30px;
+}
+
+.btns button {
+  width: 50px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.btns p {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.card > button {
+  width: 320px;
+  height: 52px;
+  border: none;
+  border-radius: 30px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
