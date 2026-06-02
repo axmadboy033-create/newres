@@ -1,0 +1,32 @@
+.footer-links {
+  padding: 40px 20px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.links-grid h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.links-grid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links-grid li {
+  margin-bottom: 6px;
+  color: #6b7280;
+}
+
+@media (max-width: 900px) {
+  .links-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

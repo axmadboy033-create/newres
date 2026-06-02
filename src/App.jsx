@@ -1,12 +1,12 @@
 import React from 'react'
-import Product from './components/Product'
-import Detalis from './components/Detalis'
+import Home from './pages/Home/Home'
+import Header from './components/Header/Header'
 
 const App = () => {
   return (
     <div>
-        <Product />
-        <Detalis />
+      <Header />
+      <Home />
     </div>
   )
 }
