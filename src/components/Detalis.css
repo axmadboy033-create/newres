@@ -1,0 +1,178 @@
+.containeri2{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header1{
+    width: 100%;
+    height: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;  
+    flex-wrap: wrap; 
+    text-align: center;
+}
+ .header1 h1{
+    margin-right: 70px;
+}
+
+
+
+.all{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+
+.cardlar{
+    /* width: 100%;
+    height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+   
+}
+
+
+.user{
+    width: 550px;
+    height: 160px;
+    border: 0,5px solid #00000099;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 0 15px;
+     box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.balll p{
+    color: gold !important;
+    font-size: 23px;
+}
+
+
+
+.user p{
+      color: #1f1b1bdc;
+}
+
+.load{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.load button{
+    width: 230px;
+    height: 50px;
+    border:none;
+    border-radius: 50px;
+    background-color: #ebe9e999;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.containeri3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.also{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+
+
+}
+
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.product{
+    border-radius: 20px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+
+
+.polo img{
+    width: 300px;
+    height: 320px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.name1 h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.name1 p{
+    margin-top: 5px;
+    
+    font-size: 18px;
+}
+.name1 mark{
+    background-color:#fff;
+    color: gold;
+    font-size: 24px;
+}
+
+.name1 span{
+    color: #999;
+}
+
+.price2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.price2 h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price2 p{
+    text-decoration: line-through;
+    color: #999;
+}
+
+.price2 mark{
+    background-color: #ffe4ec;
+    color: #ff4d8d;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
